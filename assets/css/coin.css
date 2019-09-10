@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+}
+
+#coin{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+}
+
+#resultDescription{
+    font-size: 5px;
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: skyblue;
+}
+
+#mountains{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color: blueviolet;
+    height: 400px;
+}
+
+.mountain{
+
+    background-color: brown;
+    width: 75px;
+}
+
+.mountainContainer{
+    margin: 0 5px 0 5px;
+}
+
+#mount1{
+    height: 150px;
+}
+
+#mount2{
+    height: 200px;
+}
+
+.heightInput{
+    width: 70px;
+}

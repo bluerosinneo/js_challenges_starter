@@ -1,9 +1,20 @@
 (function(){
 
-    //outputs string to the body of the document
-    document.write("hello from coin-flip.js");
+    let coinFlipper = document.querySelector("#coinFLipper");
+    let coin = document.querySelector("#coin");
 
-    //outputs the string to the browsers console
-    console.log("hello from coin-flip.js");
+    coinFlipper.addEventListener("click",function(){
+
+        if(Math.random() > 0.5){
+            coin.style.backgroundColor = "red";
+        }
+        else{
+            coin.style.backgroundColor = "green";
+        }
+
+    });
+
+
+
 
 })();
