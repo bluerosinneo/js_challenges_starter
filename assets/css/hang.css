@@ -25,3 +25,22 @@ body{
 .letter p{
     font-size: 50px;
 }
+
+#buttonDiv{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#letterQuess{
+    text-align: center;
+    width: 70px;
+    font-size: 50px;
+}
+
+#buttonDiv p{
+    font-size: 50px;
+    color: yellow;
+}

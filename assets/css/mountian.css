@@ -24,10 +24,20 @@ body{
     height: 150px;
 }
 
+#mountainContainer div{
+    text-align: center;
+    font-size: 30px;
+    color: darkgreen; 
+}
+
 #mount2{
     height: 200px;
 }
 
 .heightInput{
     width: 70px;
+}
+
+#desc{
+    font-size: 45px;
 }
