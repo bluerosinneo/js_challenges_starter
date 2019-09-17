@@ -17,12 +17,12 @@
             let birthRate = parseFloat(birthRateField.value);
             let noWeeks = parseInt(noWeeksField.value);
 
-            console.log((1+birthRate)**noWeeks);
+            //console.log((1+birthRate)**noWeeks);
 
             let result = Math.floor(startingPop*((1+birthRate)**noWeeks));
 
             resultField.innerHTML = 
-            "After " + noWeeks + " there should be " + result + " hares";
+            "After " + noWeeks + " week(s) there should be " + result + " hares";
 
         });
 
